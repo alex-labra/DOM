@@ -1,0 +1,21 @@
+body {
+    background-color: #ff6961;
+    animation: background-animation 10s infinite;
+}
+
+@keyframes background-animation {
+    0% { background-color: #ff6961; }
+    25% { background-color: #ffa600; }
+    50% { background-color: #ff6961; }
+    75% { background-color: #ffa600; }
+    100% { background-color: #ff6961; }
+}
+
+.container {
+    opacity: 0.8;
+    background-color: #fff;
+}
+
+input[type="text"] {
+    background-color: #fff;
+}
